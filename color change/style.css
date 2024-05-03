@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Optional: Set container height to fill viewport */
+  }
+  
+.my-button {
+    /* Define your desired button styles here */
+    background-color: #ddd;  /* Initial background color (gray) */
+    color: black;           /* Text color */
+    padding: 10px 20px;     /* Padding around the text */
+    border: 1px solid #ccc; /* Border */
+    cursor: pointer; 
+    align-items: center;
+    margin:300px;
+   
+          /* Indicates clickable element */
+  }

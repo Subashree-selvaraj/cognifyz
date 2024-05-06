@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Grid Layout</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .custom-box {
+      background-color: wheat;
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease-in-out;
+    }
+     h1{
+        padding:20px;
+        
+     }
+    .custom-box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgb(244, 77, 77);
+    }
+
+    @media (max-width: 576px) {
+      .custom-box {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+    <H1><center>Frontend development</center></H1>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="custom-box">
+          Html
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="custom-box">
+          Css
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="custom-box">
+            Bootstrap
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="custom-box">
+         Javascript
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="custom-box">
+          React
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
